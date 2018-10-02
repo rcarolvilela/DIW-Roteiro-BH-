@@ -1,0 +1,77 @@
+/********************
+Componente menu-principal
+********************/
+        
+.menu-principal { 
+
+}
+
+.menu-principal > .lista {
+
+}
+
+.menu-principal > .lista > .item {
+
+}
+
+#check {
+    display: none;
+}
+#icone {
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    left: 210px;
+    top: -10px;
+    z-index: 1;
+}
+
+#x {
+    width: 30px;
+    box-shadow: 1px 1px 2px black;
+    border: 1px solid black;
+
+}
+
+li.item {
+    list-style: none;
+}
+
+div.barra {
+    background-color: #96CDCD;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -300px;
+}
+
+nav.menu-principal {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+
+.link {
+    width: 260px;
+    background-color:#96CDCD;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    transition: all .2s linear;
+    color: black;
+    border-bottom: 2px solid #222;
+}
+
+.link:hover {
+    background-color:#008B8B;
+}
+
+#check:checked ~ .barra {
+    transform: translateX(290px);
+}
+
+#check:checked ~ .barra nav a .link {
+    transition-delay: .2s;
+}

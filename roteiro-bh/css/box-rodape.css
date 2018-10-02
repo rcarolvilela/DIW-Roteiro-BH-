@@ -1,0 +1,108 @@
+/********************
+Componente box-rodape
+********************/
+.img-puc {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    transition: all 0.4s ease-out;
+  }
+  
+  .img-fb{
+    width: 43px;
+    height: 43px;
+    position: relative;
+    top: -6px;
+    transition: all 0.4s ease-out;
+  }
+  
+  .img-tt{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -2px;
+    transition: all 0.4s ease-out;
+  }
+  
+  .img-insta{
+    width: 43px;
+    height: 43px;
+    position: relative;
+    top: -6px;
+    transition: all 0.4s ease-out;
+  }
+  
+  .img-inf{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -7px;
+    padding-left: 2px;
+    transition: all 0.4s ease-out;
+  }
+  
+  .img-insta:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+  }
+  
+  .img-inf:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+  }
+  
+  .img-tt:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+  }
+  
+  .img-fb:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+  }
+  
+  .img-puc:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+  }
+  
+
+.box-rodape {
+    display: inline-block;
+    text-align: center;
+}
+
+.titulo-rodape {
+    text-align: center;
+    background-color: #96CDCD;
+}
+  
+.icones-sociais {
+    list-style-type: none;
+    text-align: center;
+    background-color: #96CDCD;
+}
+
+  .rodape {
+    font-family: Poppins;
+    font-size: 13px;
+    background-color: #96CDCD;
+} 
+  
+.box-rodape > .conteudo{
+    background-color: #96CDCD;
+}
+  
+
+
+.box-rodape > .conteudo {
+
+}
+
+.box-rodape > .titulo {
+
+}
+
+.box-rodape > .conteudo ul.icones-sociais {
+    
+}

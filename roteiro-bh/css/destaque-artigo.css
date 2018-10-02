@@ -1,0 +1,26 @@
+/********************
+Componente destaque-artigo
+********************/
+.destaque-artigo {
+    background-color: rgb(212, 236, 236);
+}
+
+
+.texto > p {
+    padding: 30px;
+    background-color: #96CDCD;
+}
+
+.destaque-artigo > .texto {
+    font-family: Poppins;
+    color: black;
+    text-align: justify;
+}
+
+#citacao {
+    font-family: Amatic SC;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(29, 14, 116);
+    text-align: justify;
+}

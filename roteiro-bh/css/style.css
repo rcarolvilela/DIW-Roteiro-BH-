@@ -1,0 +1,112 @@
+/********************
+Arquivo de estilos base do site
+  - Importação de folha de estilo de normalização (normalize.css)
+  - Importação de componentes do site
+  - Definição dos elementos estruturantes do site
+********************/
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
+@import "menu-principal.css";
+@import "form-pesquisa.css";
+@import "destaque-artigo.css";
+@import "box-rodape.css";
+@import "https://fonts.googleapis.com/css?family=Arvo|Poppins|Spirax|Lobster|Amatic SC|Cinzel";
+
+#I110 {
+  float: right;
+  margin: 30px;
+}
+
+#I120 {
+  float: left;
+  margin: 30px;
+}
+
+#TB100 {
+  text-align: justify;
+  margin-right:auto; margin-left:auto; 
+}
+
+#EF1 {
+  color: lightblue;
+} 
+
+#TR1 {
+   text-align-last: auto;
+}
+
+.cabecalho {
+
+}
+
+.logo {
+    
+}
+.main {
+  background-color: rgb(212, 236, 236);
+}
+
+.nome-parque {
+  color: rgb(5, 70, 66);
+  font-size: 40px;
+  font-family: Cinzel;
+  text-align: center;
+}
+
+
+.imagem-artigo {
+  text-align: center;
+}
+
+.textos > p {
+  padding: 30px;
+}
+
+.titulo {
+    font-family: Arvo;;
+    color: green;
+    font-size: 210%;
+    text-align: center;    
+}
+.conteudo {
+  display: block;
+  font-family: Poppins;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  background-color: rgb(212, 236, 236);
+  padding: 100px 45px;
+}
+
+.sub-titulo {
+  font-family: Arvo;
+  color: rgb(5, 70, 66);
+  text-align: left;
+  font-size: 18px;
+  margin: 25px;
+}
+th {
+  background-color:#008B8B;
+  color: #ADD8E6
+}
+
+tr:nth-child(2) {background-color: #96CDCD;;}
+tr:nth-child(3) {background-color: #96CDCD;}
+tr:nth-child(4) {background-color: #008B8B;}
+
+td, th {
+  padding: .7em;
+  margin: 0;
+  /*border: 1px solid #ccc;*/
+  text-align: center;
+}
+
+.box-rodape {
+  display: inline-block;
+  clear: both;
+}
+
+.copyright {
+  background-color: #96CDCD;
+  padding: 2px;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+/********************
+Componente form-pesquisa
+********************/
+.form-pesquisa {
+    position: absolute;
+    left: 300px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.form_pesquisa > .consulta {
+
+}
+
+.form_pesquisa > .acao {
+
+}
